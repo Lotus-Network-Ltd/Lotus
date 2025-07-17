@@ -1,0 +1,152 @@
+#Owner:
+#  tabprefix: "&0&l[&a&lOwner&0&l] &a"
+#  tagprefix: "&2&lOwner &a"
+#Player:
+#  tabprefix: "&0&l[&7&lPlayer&0&l] &3"
+#  tagprefix: "&2&lPlayer &3"
+#example_group:
+#  header:
+#    - "This is an example of per-group header/footer"
+#  footer:
+#    - "applied to a group"
+#
+# default settings for all groups, all groups will take properties from this section unless player's primary group overrides a specific setting
+_DEFAULT_:
+  tabprefix: "%luckperms-prefix%"
+  tagprefix: ""
+  customtabname: "%player%"
+  tabsuffix: "%luckperms-suffix%"
+  tagsuffix: ""
+
+per-world:
+  world:
+    owner:
+      tabprefix: "%luckperms-prefix%"
+      tagprefix: ""
+      customtabname: "%player%"
+      tabsuffix: "%luckperms-suffix%"
+      tagsuffix: ""
+    manager:
+      tabprefix: "%luckperms-prefix%"
+      tagprefix: ""
+      customtabname: "%player%"
+      tabsuffix: "%luckperms-suffix%"
+      tagsuffix: ""
+    tech-admin:
+      tabprefix: "%luckperms-prefix%"
+      tagprefix: ""
+      customtabname: "%player%"
+      tabsuffix: "%luckperms-suffix%"
+      tagsuffix: ""
+    admin:
+      tabprefix: "%luckperms-prefix%"
+      tagprefix: ""
+      customtabname: "%player%"
+      tabsuffix: "%luckperms-suffix%"
+      tagsuffix: ""
+    mod:
+      tabprefix: "%luckperms-prefix%"
+      tagprefix: ""
+      customtabname: "%player%"
+      tabsuffix: "%luckperms-suffix%"
+      tagsuffix: ""
+    support:
+      tabprefix: "%luckperms-prefix%"
+      tagprefix: ""
+      customtabname: "%player%"
+      tabsuffix: "%luckperms-suffix%"
+      tagsuffix: ""
+    cbt:
+      tabprefix: "%luckperms-prefix%"
+      tagprefix: ""
+      customtabname: "%player%"
+      tabsuffix: "%luckperms-suffix%"
+      tagsuffix: ""
+    lotus:
+      tabprefix: "%luckperms-prefix%"
+      tagprefix: ""
+      customtabname: "%player%"
+      tabsuffix: "%luckperms-suffix%"
+      tagsuffix: ""
+    twitch:
+      tabprefix: "%luckperms-prefix%"
+      tagprefix: ""
+      customtabname: "%player%"
+      tabsuffix: "%luckperms-suffix%"
+      tagsuffix: ""
+    youtube:
+      tabprefix: "%luckperms-prefix%"
+      tagprefix: ""
+      customtabname: "%player%"
+      tabsuffix: "%luckperms-suffix%"
+      tagsuffix: ""
+    buster:
+      tabprefix: "%luckperms-prefix%"
+      tagprefix: ""
+      customtabname: "%player%"
+      tabsuffix: "%luckperms-suffix%"
+      tagsuffix: ""
+    default:
+      tabprefix: "%luckperms-prefix%"
+      tagprefix: ""
+      customtabname: "%player%"
+      tabsuffix: "%luckperms-suffix%"
+      tagsuffix: ""
+  world_nether:
+    owner:
+      
+    manager:
+      
+    tech-admin:
+      
+    admin:
+      
+    mod:
+      
+    support:
+      
+    cbt:
+      
+    lotus:
+      
+    twitch:
+      
+    youtube:
+      
+    buster:
+      
+    default:
+      tabprefix: "%luckperms-prefix%"
+      tagprefix: ""
+      customtabname: "%player%"
+      tabsuffix: "%luckperms-suffix%"
+      tagsuffix: ""
+  world_the_end:
+    owner:
+      
+    manager:
+      
+    tech-admin:
+      
+    admin:
+      
+    mod:
+      
+    support:
+      
+    cbt:
+      
+    lotus:
+      
+    twitch:
+      
+    youtube:
+      
+    buster:
+      
+    default:
+      tabprefix: "%luckperms-prefix%"
+      tagprefix: ""
+      customtabname: "%player%"
+      tabsuffix: "%luckperms-suffix%"
+      tagsuffix: ""

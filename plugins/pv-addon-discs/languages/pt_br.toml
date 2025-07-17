@@ -1,0 +1,25 @@
+[server.pv.addon.discs.usage]
+burn = "&cUso: /discs burn <url> [label]"
+[server.pv.addon.discs.format]
+search_entry = "&e%1$s &7por %2$s"
+[server.pv.addon.discs.actionbar]
+track_not_found = "Faixa não encontrada: %s"
+playing = "Reproduzindo agora: %s"
+loading = "Carregando..."
+[server.pv.addon.discs.error]
+search_fail = "&cFalha ao obter a faixa: %s"
+erase_wrong_item = "&cNão é possível apagar este item"
+not_a_record = "&cVocê precisa de um disco em sua mão para gravá-lo"
+unknown_subcommand = "&cSubcomando desconhecido. Comandos disponíveis: %s"
+not_burnable = "&cEste disco não é gravável"
+no_permission = "&cSem permissão"
+get_track_fail = "&cFalha ao obter a faixa: %s"
+[server.pv.addon.discs.success]
+burn = "&aDisco Gravado. Etiqueta: %s"
+erase = "&aÁudio personalizado apagado"
+[server.pv.addon.discs.arg]
+search = "<search>"
+label = "[label]"
+url = "<url>"
+[client.pv.activation]
+discs = "Discos"
