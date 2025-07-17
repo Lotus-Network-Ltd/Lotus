@@ -184,28 +184,28 @@ entities:
     despawn-ranges:
       ambient:
         hard: 56
-        soft: 40
+        soft: 32
       axolotls:
         hard: 56
-        soft: 40
+        soft: 32
       creature:
         hard: 56
-        soft: 40
+        soft: 32
       misc:
         hard: 56
-        soft: 40
+        soft: 32
       monster:
         hard: 56
-        soft: 40
+        soft: 32
       underground_water_creature:
         hard: 56
-        soft: 40
+        soft: 32
       water_ambient:
         hard: 56
-        soft: 40
+        soft: 32
       water_creature:
         hard: 56
-        soft: 40
+        soft: 32
     despawn-time:
       llama_spit: disabled
       snowball: disabled
