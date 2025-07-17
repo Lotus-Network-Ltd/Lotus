@@ -89,13 +89,13 @@ world-settings:
       glowberry-modifier: 100
       pitcherplant-modifier: 100
     entity-activation-range:
-      animals: 14
-      monsters: 14
-      raiders: 14
+      animals: 24
+      monsters: 24
+      raiders: 24
       misc: 4
       water: 4
-      villagers: 14
-      flying-monsters: 24
+      villagers: 24
+      flying-monsters: 32
       wake-up-inactive:
         animals-max-per-tick: 2
         animals-every: 1200
