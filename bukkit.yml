@@ -23,7 +23,7 @@ settings:
   use-map-color-cache: true
 spawn-limits:
   monsters: 35
-  animals: 8
+  animals: 7
   water-animals: 3
   water-ambient: 1
   water-underground-creature: 2
@@ -33,7 +33,7 @@ chunk-gc:
   period-in-ticks: 300
 ticks-per:
   animal-spawns: 420
-  monster-spawns: 10
+  monster-spawns: 100
   water-spawns: 200
   water-ambient-spawns: 1800
   water-underground-creature-spawns: 300
