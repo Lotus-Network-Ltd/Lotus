@@ -1,0 +1,29 @@
+
+# Messages use MiniMessage formatting (https://docs.adventure.kyori.net/minimessage/format)
+messages:
+  prefix: ''
+  command_denied: "\n <gray>Вы не можете использовать эту команду.</gray> \n "
+  subcommand_denied: "\n <gray>Вы не можете использовать эту под-команду.</gray> \n\
+    \ "
+  no_permission: "\n <gray>У вас недостаточно прав для этого.</gray> \n "
+  no_such_subcommand: "\n <gray>Команды не существует.</gray> \n "
+  config_reloaded: <green>Перезагружено!
+  added_to_whitelist: <yellow>Команду добавлено в белый список <gold>%s <yellow>для
+    прав <gold>%s
+  removed_from_whitelist: <yellow>Команду удалено из белого списка <gold>%s <yellow>для
+    прав <gold>%s
+  group_doesnt_exist: "\n <gray>Такая група не существует.</gray> \n "
+
+# Do not enable if you don't have issues with aliased commands.
+# This requires server restart to take effect.
+use_protocollib: false
+message_type: CHAT
+groups:
+  default:
+    commands:
+    - msg
+    - m
+    - r
+    - disc
+    - reply
+    subcommands: null
