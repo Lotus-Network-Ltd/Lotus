@@ -10,7 +10,7 @@
 # Website: https://papermc.io/
 
 settings:
-  allow-end: false
+  allow-end: true
   warn-on-overload: true
   permissions-file: permissions.yml
   update-folder: update
@@ -22,7 +22,7 @@ settings:
   minimum-api: none
   use-map-color-cache: true
 spawn-limits:
-  monsters: 35
+  monsters: 30
   animals: 10
   water-animals: 3
   water-ambient: 1
@@ -33,7 +33,7 @@ chunk-gc:
   period-in-ticks: 300
 ticks-per:
   animal-spawns: 420
-  monster-spawns: 14
+  monster-spawns: 12
   water-spawns: 200
   water-ambient-spawns: 1800
   water-underground-creature-spawns: 300
