@@ -3,6 +3,7 @@ world_nether/
 world_the_end/
 logs/
 eula.txt
+plugins/.paper-remapped
 whitelist.json
 version_history.json
 usercache.json
