@@ -1,9 +1,0 @@
-statistics:
-  change-interval: 300000
-  texts:
-    - '&x&a&a&a&a&a&aУбийств: &x&f&f&f&f&f&f%statistic_player_kills%&x&a&a&a&a&a&a'
-    - '&x&a&a&a&a&a&aДобыто блоков: &x&f&f&f&f&f&f%statistic_mine_block%&x&a&a&a&a&a&a ед.'
-    - '&x&a&a&a&a&a&aПрыжков: &x&f&f&f&f&f&f%statistic_jump%&x&a&a&a&a&a&a'
-    - '&x&a&a&a&a&a&aСмертей: &x&f&f&f&f&f&f%statistic_deaths%&x&a&a&a&a&a&a'
-    - '&x&a&a&a&a&a&aНаиграно времени: &x&f&f&f&f&f&f%statistic_time_played:hours%&x&a&a&a&a&a&a ч.'
-    - '&x&a&a&a&a&a&aПолучено урона: &x&f&f&f&f&f&f%statistic_damage_taken%&x&a&a&a&a&a&a ед.'
