@@ -12,28 +12,23 @@
 
 messages:
   whitelist: |-
-    §x§e§d§9§5§a§0§lL§x§e§b§9§7§a§2§lO§x§e§9§9§a§a§4§lT§x§e§6§9§c§a§5§lU§x§e§4§9§e§a§7§lS
+    §x§e§d§9§5§a§0§lL§x§e§7§8§8§9§4§lO§x§e§1§7§b§8§8§lT§x§d§a§6§e§7§c§lU§x§d§4§6§1§7§0§lS
 
-    §x§f§f§f§f§f§fВ§x§f§f§f§f§f§fы §x§f§f§f§f§f§fе§x§f§f§f§f§f§fщ§x§f§f§f§f§f§fё §x§f§f§f§f§f§fн§x§f§f§f§f§f§fе §x§f§f§f§f§f§fм§x§f§f§f§f§f§fо§x§f§f§f§f§f§fж§x§f§f§f§f§f§fе§x§f§f§f§f§f§fт§x§f§f§f§f§f§fе §x§f§f§f§f§f§fи§x§f§f§f§f§f§fг§x§f§f§f§f§f§fр§x§f§f§f§f§f§fа§x§f§f§f§f§f§fт§x§f§f§f§f§f§fь §x§f§f§f§f§f§fз§x§f§f§f§f§f§fд§x§f§f§f§f§f§fе§x§f§f§f§f§f§fс§x§f§f§f§f§f§fь§x§f§f§f§f§f§f, §x§f§f§f§f§f§fо§x§f§f§f§f§f§fж§x§f§f§f§f§f§fи§x§f§f§f§f§f§fд§x§f§f§f§f§f§fа§x§f§f§f§f§f§fй§x§f§f§f§f§f§fт§x§f§f§f§f§f§fе§x§f§f§f§f§f§f.
-    §x§f§f§f§f§f§fП§x§f§f§f§f§f§fу§x§f§f§f§f§f§f-§x§f§f§f§f§f§fП§x§f§f§f§f§f§fу§x§f§f§f§f§f§f-§x§f§f§f§f§f§fП§x§f§f§f§f§f§fу§x§f§f§f§f§f§f.§x§f§f§f§f§f§f.§x§f§f§f§f§f§f.
-  unknown-command: "\n §x§a§a§a§a§a§aТ§x§a§a§a§a§a§aа§x§a§a§a§a§a§aк§x§a§a§a§a§a§\
-    aо§x§a§a§a§a§a§aй §x§a§a§a§a§a§aк§x§a§a§a§a§a§aо§x§a§a§a§a§a§aм§x§a§a§a§a§a§aа\
-    §x§a§a§a§a§a§aн§x§a§a§a§a§a§aд§x§a§a§a§a§a§aы §x§a§a§a§a§a§aн§x§a§a§a§a§a§aе §\
-    x§a§a§a§a§a§aс§x§a§a§a§a§a§aу§x§a§a§a§a§a§aщ§x§a§a§a§a§a§aе§x§a§a§a§a§a§aс§x§\
-    a§a§a§a§a§aт§x§a§a§a§a§a§aв§x§a§a§a§a§a§aу§x§a§a§a§a§a§aе§x§a§a§a§a§a§aт§x§a§\
-    a§a§a§a§a. \n "
+    §fВы ещё не можете играть здесь, ожидайте.
+    §fПу-Пу-Пу...
+  unknown-command: "\n§7Такой команды не существует.\n "
   server-full: |-
-    §x§e§d§9§5§a§0§lL§x§e§b§9§7§a§2§lO§x§e§9§9§a§a§4§lT§x§e§6§9§c§a§5§lU§x§e§4§9§e§a§7§lS
+    §x§e§d§9§5§a§0§lL§x§e§7§8§8§9§4§lO§x§e§1§7§b§8§8§lT§x§d§a§6§e§7§c§lU§x§d§4§6§1§7§0§lS
 
-    §x§f§f§f§f§f§fС§x§f§f§f§f§f§fе§x§f§f§f§f§f§fр§x§f§f§f§f§f§fв§x§f§f§f§f§f§fе§x§f§f§f§f§f§fр §x§f§f§f§f§f§fп§x§f§f§f§f§f§fе§x§f§f§f§f§f§fр§x§f§f§f§f§f§fе§x§f§f§f§f§f§fп§x§f§f§f§f§f§fо§x§f§f§f§f§f§fл§x§f§f§f§f§f§fн§x§f§f§f§f§f§fе§x§f§f§f§f§f§fн§x§f§f§f§f§f§f.
-    §x§f§f§f§f§f§fП§x§f§f§f§f§f§fо§x§f§f§f§f§f§fд§x§f§f§f§f§f§fп§x§f§f§f§f§f§fи§x§f§f§f§f§f§fс§x§f§f§f§f§f§fк§x§f§f§f§f§f§fа §x§e§d§9§5§a§0§l§oL§x§e§f§a§6§a§f§l§oo§x§f§2§b§7§b§e§l§ot§x§f§4§c§7§c§d§l§ou§x§f§7§d§8§d§c§l§os§x§f§9§e§9§e§b§l§o+ §x§f§f§f§f§f§fд§x§f§f§f§f§f§fа§x§f§f§f§f§f§fё§x§f§f§f§f§f§fт §x§f§f§f§f§f§fв§x§f§f§f§f§f§fо§x§f§f§f§f§f§fз§x§f§f§f§f§f§fм§x§f§f§f§f§f§fо§x§f§f§f§f§f§fж§x§f§f§f§f§f§fн§x§f§f§f§f§f§fо§x§f§f§f§f§f§fс§x§f§f§f§f§f§fт§x§f§f§f§f§f§fь §x§f§f§f§f§f§fв§x§f§f§f§f§f§fх§x§f§f§f§f§f§fо§x§f§f§f§f§f§fд§x§f§f§f§f§f§fа §x§f§f§f§f§f§fд§x§f§f§f§f§f§fа§x§f§f§f§f§f§fж§x§f§f§f§f§f§fе §x§f§f§f§f§f§fн§x§f§f§f§f§f§fа §x§f§f§f§f§f§fз§x§f§f§f§f§f§fа§x§f§f§f§f§f§fп§x§f§f§f§f§f§fо§x§f§f§f§f§f§fл§x§f§f§f§f§f§fн§x§f§f§f§f§f§fе§x§f§f§f§f§f§fн§x§f§f§f§f§f§fн§x§f§f§f§f§f§fы§x§f§f§f§f§f§fй §x§f§f§f§f§f§fс§x§f§f§f§f§f§fе§x§f§f§f§f§f§fр§x§f§f§f§f§f§fв§x§f§f§f§f§f§fе§x§f§f§f§f§f§fр§x§f§f§f§f§f§f.
+    §fСервер переполнен.
+    §fПодписка §x§e§d§9§5§a§0§l§o§nL§x§e§8§8§b§9§6§l§o§nO§x§e§3§8§0§8§d§l§o§nT§x§d§e§7§6§8§3§l§o§nU§x§d§9§6§b§7§a§l§o§nS§x§d§4§6§1§7§0§l§o§n+ §r§fпоможет вам зайти даже на переполненный сервер.
   outdated-client: Outdated client! Please use {0}
   outdated-server: Outdated server! I'm still on {0}
   restart: |-
-    §x§e§d§9§5§a§0§lL§x§e§b§9§7§a§2§lO§x§e§9§9§a§a§4§lT§x§e§6§9§c§a§5§lU§x§e§4§9§e§a§7§lS
+    §x§e§d§9§5§a§0§lL§x§e§7§8§8§9§4§lO§x§e§1§7§b§8§8§lT§x§d§a§6§e§7§c§lU§x§d§4§6§1§7§0§lS
 
-    §x§f§f§f§f§f§fП§x§f§f§f§f§f§fл§x§f§f§f§f§f§fа§x§f§f§f§f§f§fн§x§f§f§f§f§f§fо§x§f§f§f§f§f§fв§x§f§f§f§f§f§fы§x§f§f§f§f§f§fй §x§f§f§f§f§f§fп§x§f§f§f§f§f§fе§x§f§f§f§f§f§fр§x§f§f§f§f§f§fе§x§f§f§f§f§f§fз§x§f§f§f§f§f§fа§x§f§f§f§f§f§fп§x§f§f§f§f§f§fу§x§f§f§f§f§f§fс§x§f§f§f§f§f§fк §x§f§f§f§f§f§fс§x§f§f§f§f§f§fе§x§f§f§f§f§f§fр§x§f§f§f§f§f§fв§x§f§f§f§f§f§fи§x§f§f§f§f§f§fс§x§f§f§f§f§f§fо§x§f§f§f§f§f§fв
-    §x§f§f§f§f§f§fП§x§f§f§f§f§f§fе§x§f§f§f§f§f§fр§x§f§f§f§f§f§fе§x§f§f§f§f§f§fп§x§f§f§f§f§f§fо§x§f§f§f§f§f§fд§x§f§f§f§f§f§fк§x§f§f§f§f§f§fл§x§f§f§f§f§f§fю§x§f§f§f§f§f§fч§x§f§f§f§f§f§fи§x§f§f§f§f§f§fт§x§f§f§f§f§f§fе§x§f§f§f§f§f§fс§x§f§f§f§f§f§fь§x§f§f§f§f§f§f.
+    §fПлановый перезапуск сервисов.
+    §fПереподключитесь.
 settings:
   bungeecord: false
   save-user-cache-on-stop-only: true
