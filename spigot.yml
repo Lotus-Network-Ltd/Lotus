@@ -16,11 +16,24 @@ messages:
 
     §x§f§f§f§f§f§fП§x§f§f§f§f§f§fо§x§f§f§f§f§f§fк§x§f§f§f§f§f§fа §x§f§f§f§f§f§fч§x§f§f§f§f§f§fт§x§f§f§f§f§f§fо §x§f§f§f§f§f§fв§x§f§f§f§f§f§fы §x§f§f§f§f§f§fн§x§f§f§f§f§f§fе §x§f§f§f§f§f§fм§x§f§f§f§f§f§fо§x§f§f§f§f§f§fж§x§f§f§f§f§f§fе§x§f§f§f§f§f§fт§x§f§f§f§f§f§fе §x§f§f§f§f§f§fи§x§f§f§f§f§f§fг§x§f§f§f§f§f§fр§x§f§f§f§f§f§fа§x§f§f§f§f§f§fт§x§f§f§f§f§f§fь §x§f§f§f§f§f§fз§x§f§f§f§f§f§fд§x§f§f§f§f§f§fе§x§f§f§f§f§f§fс§x§f§f§f§f§f§fь§x§f§f§f§f§f§f, §x§f§f§f§f§f§fо§x§f§f§f§f§f§fж§x§f§f§f§f§f§fи§x§f§f§f§f§f§fд§x§f§f§f§f§f§fа§x§f§f§f§f§f§fй§x§f§f§f§f§f§fт§x§f§f§f§f§f§fе§x§f§f§f§f§f§f.
     §x§f§f§f§f§f§fП§x§f§f§f§f§f§fу§x§f§f§f§f§f§f-§x§f§f§f§f§f§fП§x§f§f§f§f§f§fу§x§f§f§f§f§f§f-§x§f§f§f§f§f§fП§x§f§f§f§f§f§fу§x§f§f§f§f§f§f.§x§f§f§f§f§f§f.§x§f§f§f§f§f§f.
-  unknown-command: Unknown command. Type "/help" for help.
-  server-full: The server is full!
+  unknown-command: "\n §x§a§a§a§a§a§aТ§x§a§a§a§a§a§aа§x§a§a§a§a§a§aк§x§a§a§a§a§a§\
+    aо§x§a§a§a§a§a§aй §x§a§a§a§a§a§aк§x§a§a§a§a§a§aо§x§a§a§a§a§a§aм§x§a§a§a§a§a§aа\
+    §x§a§a§a§a§a§aн§x§a§a§a§a§a§aд§x§a§a§a§a§a§aы §x§a§a§a§a§a§aн§x§a§a§a§a§a§aе §\
+    x§a§a§a§a§a§aс§x§a§a§a§a§a§aу§x§a§a§a§a§a§aщ§x§a§a§a§a§a§aе§x§a§a§a§a§a§aс§x§\
+    a§a§a§a§a§aт§x§a§a§a§a§a§aв§x§a§a§a§a§a§aу§x§a§a§a§a§a§aе§x§a§a§a§a§a§aт§x§a§\
+    a§a§a§a§a.\n "
+  server-full: |-
+    §x§e§4§9§e§a§7§lL§x§e§6§9§c§a§5§lO§x§e§9§9§a§a§4§lT§x§e§b§9§7§a§2§lU§x§e§d§9§5§a§0§lS
+
+    §x§f§f§f§f§f§fС§x§f§f§f§f§f§fе§x§f§f§f§f§f§fр§x§f§f§f§f§f§fв§x§f§f§f§f§f§fе§x§f§f§f§f§f§fр §x§f§f§f§f§f§fп§x§f§f§f§f§f§fе§x§f§f§f§f§f§fр§x§f§f§f§f§f§fе§x§f§f§f§f§f§fп§x§f§f§f§f§f§fо§x§f§f§f§f§f§fл§x§f§f§f§f§f§fн§x§f§f§f§f§f§fе§x§f§f§f§f§f§fн§x§f§f§f§f§f§f.
+    §x§f§f§f§f§f§fА §x§f§f§f§f§f§fп§x§f§f§f§f§f§fо§x§f§f§f§f§f§fд§x§f§f§f§f§f§fп§x§f§f§f§f§f§fи§x§f§f§f§f§f§fс§x§f§f§f§f§f§fк§x§f§f§f§f§f§fа §x§f§f§f§f§f§fн§x§f§f§f§f§f§fа §x§e§d§9§5§a§0L§x§e§b§9§7§a§1o§x§e§9§9§9§a§3t§x§e§8§9§a§a§4u§x§e§6§9§c§a§6s§x§e§4§9§e§a§7+ §x§f§f§f§f§f§fд§x§f§f§f§f§f§fа§x§f§f§f§f§f§fё§x§f§f§f§f§f§fт §x§f§f§f§f§f§fв§x§f§f§f§f§f§fо§x§f§f§f§f§f§fз§x§f§f§f§f§f§fм§x§f§f§f§f§f§fо§x§f§f§f§f§f§fж§x§f§f§f§f§f§fн§x§f§f§f§f§f§fо§x§f§f§f§f§f§fм§x§f§f§f§f§f§fт§x§f§f§f§f§f§fь §x§f§f§f§f§f§fз§x§f§f§f§f§f§fа§x§f§f§f§f§f§fх§x§f§f§f§f§f§fо§x§f§f§f§f§f§fд§x§f§f§f§f§f§fи§x§f§f§f§f§f§fт§x§f§f§f§f§f§fь §x§f§f§f§f§f§fн§x§f§f§f§f§f§fа §x§f§f§f§f§f§fп§x§f§f§f§f§f§fе§x§f§f§f§f§f§fр§x§f§f§f§f§f§fе§x§f§f§f§f§f§fп§x§f§f§f§f§f§fо§x§f§f§f§f§f§fл§x§f§f§f§f§f§fн§x§f§f§f§f§f§fе§x§f§f§f§f§f§fн§x§f§f§f§f§f§fн§x§f§f§f§f§f§fы§x§f§f§f§f§f§fй §x§f§f§f§f§f§fс§x§f§f§f§f§f§fе§x§f§f§f§f§f§fр§x§f§f§f§f§f§fв§x§f§f§f§f§f§fе§x§f§f§f§f§f§fр§x§f§f§f§f§f§f.
   outdated-client: Outdated client! Please use {0}
   outdated-server: Outdated server! I'm still on {0}
-  restart: Плановый перезапуск сервисов.
+  restart: |-
+    §x§e§4§9§e§a§7§lL§x§e§6§9§c§a§5§lO§x§e§9§9§a§a§4§lT§x§e§b§9§7§a§2§lU§x§e§d§9§5§a§0§lS
+
+    §x§f§f§f§f§f§fП§x§f§f§f§f§f§fл§x§f§f§f§f§f§fа§x§f§f§f§f§f§fн§x§f§f§f§f§f§fо§x§f§f§f§f§f§fв§x§f§f§f§f§f§fы§x§f§f§f§f§f§fй §x§f§f§f§f§f§fп§x§f§f§f§f§f§fе§x§f§f§f§f§f§fр§x§f§f§f§f§f§fе§x§f§f§f§f§f§fз§x§f§f§f§f§f§fа§x§f§f§f§f§f§fп§x§f§f§f§f§f§fу§x§f§f§f§f§f§fс§x§f§f§f§f§f§fк §x§f§f§f§f§f§fс§x§f§f§f§f§f§fе§x§f§f§f§f§f§fр§x§f§f§f§f§f§fв§x§f§f§f§f§f§fи§x§f§f§f§f§f§fс§x§f§f§f§f§f§fо§x§f§f§f§f§f§fв§x§f§f§f§f§f§f.
+    §x§f§f§f§f§f§fП§x§f§f§f§f§f§fе§x§f§f§f§f§f§fр§x§f§f§f§f§f§fе§x§f§f§f§f§f§fп§x§f§f§f§f§f§fо§x§f§f§f§f§f§fд§x§f§f§f§f§f§fк§x§f§f§f§f§f§fл§x§f§f§f§f§f§fю§x§f§f§f§f§f§fч§x§f§f§f§f§f§fи§x§f§f§f§f§f§fс§x§f§f§f§f§f§fь§x§f§f§f§f§f§f.
 settings:
   bungeecord: false
   save-user-cache-on-stop-only: true
