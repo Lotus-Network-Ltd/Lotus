@@ -11,7 +11,11 @@
 # Website: https://papermc.io/
 
 messages:
-  whitelist:"<color:#ed95a0><b>Lotus</b></color>\n\nПока что вы не можете играть здесь, ожидайте.\n<i>Пу-Пу-Пу...</i>"
+  whitelist: |-
+    §x§e§4§9§e§a§7§lL§x§e§6§9§c§a§5§lO§x§e§9§9§a§a§4§lT§x§e§b§9§7§a§2§lU§x§e§d§9§5§a§0§lS
+
+    §x§f§f§f§f§f§fП§x§f§f§f§f§f§fо§x§f§f§f§f§f§fк§x§f§f§f§f§f§fа §x§f§f§f§f§f§fч§x§f§f§f§f§f§fт§x§f§f§f§f§f§fо §x§f§f§f§f§f§fв§x§f§f§f§f§f§fы §x§f§f§f§f§f§fн§x§f§f§f§f§f§fе §x§f§f§f§f§f§fм§x§f§f§f§f§f§fо§x§f§f§f§f§f§fж§x§f§f§f§f§f§fе§x§f§f§f§f§f§fт§x§f§f§f§f§f§fе §x§f§f§f§f§f§fи§x§f§f§f§f§f§fг§x§f§f§f§f§f§fр§x§f§f§f§f§f§fа§x§f§f§f§f§f§fт§x§f§f§f§f§f§fь §x§f§f§f§f§f§fз§x§f§f§f§f§f§fд§x§f§f§f§f§f§fе§x§f§f§f§f§f§fс§x§f§f§f§f§f§fь§x§f§f§f§f§f§f, §x§f§f§f§f§f§fо§x§f§f§f§f§f§fж§x§f§f§f§f§f§fи§x§f§f§f§f§f§fд§x§f§f§f§f§f§fа§x§f§f§f§f§f§fй§x§f§f§f§f§f§fт§x§f§f§f§f§f§fе§x§f§f§f§f§f§f.
+    §x§f§f§f§f§f§fП§x§f§f§f§f§f§fу§x§f§f§f§f§f§f-§x§f§f§f§f§f§fП§x§f§f§f§f§f§fу§x§f§f§f§f§f§f-§x§f§f§f§f§f§fП§x§f§f§f§f§f§fу§x§f§f§f§f§f§f.§x§f§f§f§f§f§f.§x§f§f§f§f§f§f.
   unknown-command: Unknown command. Type "/help" for help.
   server-full: The server is full!
   outdated-client: Outdated client! Please use {0}
