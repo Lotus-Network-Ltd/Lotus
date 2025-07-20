@@ -11,7 +11,7 @@
 # Website: https://papermc.io/
 
 messages:
-  whitelist: You are not whitelisted on this server!
+  whitelist:"<color:#ed95a0><b>Lotus</b></color>\n\nПока что вы не можете играть здесь, ожидайте.\n<i>Пу-Пу-Пу...</i>"
   unknown-command: Unknown command. Type "/help" for help.
   server-full: The server is full!
   outdated-client: Outdated client! Please use {0}
