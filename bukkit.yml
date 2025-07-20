@@ -18,7 +18,11 @@ settings:
   connection-throttle: 4000
   query-plugins: false
   deprecated-verbose: default
-  shutdown-message: Плановый перезапуск сервисов.
+  shutdown-message: |-
+    §x§e§d§9§5§a§0§lL§x§e§b§9§7§a§2§lO§x§e§9§9§a§a§4§lT§x§e§6§9§c§a§5§lU§x§e§4§9§e§a§7§lS
+
+    §x§f§f§f§f§f§fП§x§f§f§f§f§f§fл§x§f§f§f§f§f§fа§x§f§f§f§f§f§fн§x§f§f§f§f§f§fо§x§f§f§f§f§f§fв§x§f§f§f§f§f§fы§x§f§f§f§f§f§fй §x§f§f§f§f§f§fп§x§f§f§f§f§f§fе§x§f§f§f§f§f§fр§x§f§f§f§f§f§fе§x§f§f§f§f§f§fз§x§f§f§f§f§f§fа§x§f§f§f§f§f§fп§x§f§f§f§f§f§fу§x§f§f§f§f§f§fс§x§f§f§f§f§f§fк §x§f§f§f§f§f§fс§x§f§f§f§f§f§fе§x§f§f§f§f§f§fр§x§f§f§f§f§f§fв§x§f§f§f§f§f§fи§x§f§f§f§f§f§fс§x§f§f§f§f§f§fо§x§f§f§f§f§f§fв
+    §x§f§f§f§f§f§fП§x§f§f§f§f§f§fе§x§f§f§f§f§f§fр§x§f§f§f§f§f§fе§x§f§f§f§f§f§fп§x§f§f§f§f§f§fо§x§f§f§f§f§f§fд§x§f§f§f§f§f§fк§x§f§f§f§f§f§fл§x§f§f§f§f§f§fю§x§f§f§f§f§f§fч§x§f§f§f§f§f§fи§x§f§f§f§f§f§fт§x§f§f§f§f§f§fе§x§f§f§f§f§f§fс§x§f§f§f§f§f§fь§x§f§f§f§f§f§f.
   minimum-api: none
   use-map-color-cache: true
 spawn-limits:
