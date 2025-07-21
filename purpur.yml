@@ -11,27 +11,27 @@
 verbose: false
 settings:
   messages:
-    cannot-ride-mob: "\n Вы не можете оседлать моба\n "
+    cannot-ride-mob: "\n Вы не можете оседлать моба.\n "
     afk-broadcast-away: "\n %s отошёл.\n "
     afk-broadcast-back: "\n %s вернулся.\n "
     afk-broadcast-use-display-name: false
     afk-tab-list-prefix: ''
     afk-tab-list-suffix: 💤
-    credits-command-output: <green>%s has been shown the end credits
-    demo-command-output: <green>%s has been shown the demo screen
-    ping-command-output: <green>%s пинг is %sms
-    ram-command-output: '<green>Ram Usage: <used>/<xmx> (<percent>)'
-    rambar-command-output: <green>Rambar toggled <onoff> for <target>
-    tpsbar-command-output: <green>Tpsbar toggled <onoff> for <target>
-    dont-run-with-scissors: <red><italic>Don't run with scissors!
-    uptime-command-output: <green>Server uptime is <uptime>
+    credits-command-output: "\n %s были показаны титры.\n "
+    demo-command-output: "\n %s был показан демонстрационный экран.\n "
+    ping-command-output: "\n Пинг у %s %sms\n "
+    ram-command-output: "\n ОЗУ: <used>/<xmx> (<percent>)\n "
+    rambar-command-output: "\n Показатели ОЗУ <onoff> для <target>\n "
+    tpsbar-command-output: "\n Показатели ТПС <onoff> для <target>\n "
+    dont-run-with-scissors: "\n Не бегайте с ножницами!\n "
+    uptime-command-output: "\n Время работы сервера: <uptime>\n "
     unverified-username: default
     sleep-skipping-night: default
     sleeping-players-percent: default
     sleep-not-possible: default
     death-message:
-      run-with-scissors: <player> slipped and fell on their shears
-      stonecutter: <player> has sawed themself in half
+      run-with-scissors: "\n <player> поскользнулся и упал на ножницы.\n "
+      stonecutter: "\n <player> разрезал себя пополам\n "
   register-minecraft-debug-commands: false
   server-mod-name: Lotus
   use-alternate-keepalive: true
@@ -52,7 +52,7 @@ settings:
   lagging-threshold: 17.0
   command:
     rambar:
-      title: <gray>Ram<yellow>:</yellow> <used>/<xmx> (<percent>)
+      title: <gray>ОЗУ<yellow>:</yellow> <used>/<xmx> (<percent>)
       overlay: NOTCHED_20
       progress-color:
         good: GREEN
@@ -64,7 +64,7 @@ settings:
         low: <gradient:#ff5555:#aa0000><text></gradient>
       tick-interval: 20
     tpsbar:
-      title: <gray>TPS<yellow>:</yellow> <tps> MSPT<yellow>:</yellow> <mspt> Ping<yellow>:</yellow>
+      title: <gray>ТПС<yellow>:</yellow> <tps> МТПС<yellow>:</yellow> <mspt> ПИНГ<yellow>:</yellow>
         <ping>ms
       overlay: NOTCHED_20
       fill-mode: MSPT
@@ -88,14 +88,14 @@ settings:
     hide-hidden-players-from-entity-selector: false
     uptime:
       format: <days><hours><minutes><seconds>
-      day: '%02d day, '
-      days: '%02d days, '
-      hour: '%02d hour, '
-      hours: '%02d hours, '
-      minute: '%02d minute, and '
-      minutes: '%02d minutes, and '
-      second: '%02d second'
-      seconds: '%02d seconds'
+      day: '%02d день, '
+      days: '%02d дней, '
+      hour: '%02d час, '
+      hours: '%02d часов, '
+      minute: '%02d минута и '
+      minutes: '%02d минут и '
+      second: '%02d сукунда'
+      seconds: '%02d секунд'
   blocks:
     barrel:
       rows: 3
