@@ -34,11 +34,11 @@ settings:
       stonecutter: "\n <player> разрезал себя пополам\n "
   register-minecraft-debug-commands: false
   server-mod-name: Lotus
-  use-alternate-keepalive: false
+  use-alternate-keepalive: true
   disable-give-dropping: false
   bee-count-payload: false
   tps-catchup: true
-  fix-projectile-looting-transfer: false
+  fix-projectile-looting-transfer: true
   clamp-attributes: true
   limit-armor: true
   player-deaths-always-show-item: false
@@ -49,7 +49,7 @@ settings:
       only-broadcast-to-affected-player: false
     death:
       only-broadcast-to-affected-player: false
-  lagging-threshold: 19.0
+  lagging-threshold: 16.0
   command:
     rambar:
       title: <gray>ОЗУ<yellow>:</yellow> <used>/<xmx> (<percent>)
@@ -143,14 +143,14 @@ settings:
       short-height: false
   allow-water-placement-in-the-end: true
   logger:
-    suppress-init-legacy-material-errors: false
-    suppress-ignored-advancement-warnings: false
-    suppress-unrecognized-recipe-errors: false
-    suppress-setblock-in-far-chunk-errors: false
-    suppress-library-loader: false
+    suppress-init-legacy-material-errors: true
+    suppress-ignored-advancement-warnings: true
+    suppress-unrecognized-recipe-errors: true
+    suppress-setblock-in-far-chunk-errors: true
+    suppress-library-loader: true
   network:
     upnp-port-forwarding: false
-    max-joins-per-second: false
+    max-joins-per-second: true
     kick-for-out-of-order-chat: true
   username-valid-characters: ^[a-zA-Z0-9_.]*$
   blast-resistance-overrides: {}
@@ -661,14 +661,14 @@ world-settings:
         attributes:
           max_health: 12.0
           scale: 1.0
-        breeding-delay-ticks: 6000
+        breeding-delay-ticks: 12000
       axolotl:
         ridable: false
         controllable: true
         attributes:
           max_health: 14.0
           scale: 1.0
-        breeding-delay-ticks: 6000
+        breeding-delay-ticks: 12000
         takes-damage-from-water: false
         always-drop-exp: false
       bat:
@@ -696,7 +696,7 @@ world-settings:
         attributes:
           max_health: 10.0
           scale: 1.0
-        breeding-delay-ticks: 6000
+        breeding-delay-ticks: 12000
         takes-damage-from-water: false
         can-work-at-night: false
         can-work-in-rain: false
@@ -732,7 +732,7 @@ world-settings:
           movement_speed:
             min: 0.09
             max: 0.09
-        breeding-delay-ticks: 6000
+        breeding-delay-ticks: 12000
       cat:
         ridable: false
         ridable-in-water: true
@@ -744,7 +744,7 @@ world-settings:
         scan-range-for-other-cats:
           swamp-hut: 16
           village: 48
-        breeding-delay-ticks: 6000
+        breeding-delay-ticks: 12000
         default-collar-color: RED
         takes-damage-from-water: false
         always-drop-exp: false
@@ -765,7 +765,7 @@ world-settings:
           max_health: 4.0
           scale: 1.0
         retaliate: false
-        breeding-delay-ticks: 6000
+        breeding-delay-ticks: 12000
         takes-damage-from-water: false
         always-drop-exp: false
       cod:
@@ -784,7 +784,7 @@ world-settings:
           max_health: 10.0
           scale: 1.0
         feed-mushrooms-for-mooshroom: 0
-        breeding-delay-ticks: 6000
+        breeding-delay-ticks: 12000
         takes-damage-from-water: false
         naturally-aggressive-to-players:
           chance: 0.0
@@ -823,7 +823,7 @@ world-settings:
         attributes:
           max_health: 10.0
           scale: 1.0
-        disable-treasure-searching: false
+        disable-treasure-searching: true
         takes-damage-from-water: false
         naturally-aggressive-to-players-chance: 0.0
         always-drop-exp: false
@@ -839,7 +839,7 @@ world-settings:
           movement_speed:
             min: 0.175
             max: 0.175
-        breeding-delay-ticks: 6000
+        breeding-delay-ticks: 12000
         takes-damage-from-water: false
         always-drop-exp: false
       drowned:
@@ -919,7 +919,7 @@ world-settings:
           max_health: 10.0
           scale: 1.0
         tulips-change-type: false
-        breeding-delay-ticks: 6000
+        breeding-delay-ticks: 12000
         mob-griefing-override: default
         takes-damage-from-water: false
         always-drop-exp: false
@@ -928,7 +928,7 @@ world-settings:
         ridable-in-water: true
         controllable: true
         ridable-jump-height: 0.6499999761581421
-        breeding-delay-ticks: 6000
+        breeding-delay-ticks: 12000
       ghast:
         ridable: false
         ridable-in-water: true
@@ -970,7 +970,7 @@ world-settings:
         attributes:
           max_health: 10.0
           scale: 1.0
-        breeding-delay-ticks: 6000
+        breeding-delay-ticks: 12000
         takes-damage-from-water: false
         always-drop-exp: false
       guardian:
@@ -1000,7 +1000,7 @@ world-settings:
         attributes:
           max_health: 40.0
           scale: 1.0
-        breeding-delay-ticks: 6000
+        breeding-delay-ticks: 12000
         takes-damage-from-water: false
         always-drop-exp: false
       horse:
@@ -1015,7 +1015,7 @@ world-settings:
           movement_speed:
             min: 0.1125
             max: 0.3375
-        breeding-delay-ticks: 6000
+        breeding-delay-ticks: 12000
         takes-damage-from-water: false
         always-drop-exp: false
       husk:
@@ -1069,7 +1069,7 @@ world-settings:
           movement_speed:
             min: 0.175
             max: 0.175
-        breeding-delay-ticks: 6000
+        breeding-delay-ticks: 12000
         takes-damage-from-water: false
         join-caravans: true
         always-drop-exp: false
@@ -1089,7 +1089,7 @@ world-settings:
         attributes:
           max_health: 10.0
           scale: 1.0
-        breeding-delay-ticks: 6000
+        breeding-delay-ticks: 12000
         takes-damage-from-water: false
         always-drop-exp: false
       mule:
@@ -1104,7 +1104,7 @@ world-settings:
           movement_speed:
             min: 0.175
             max: 0.175
-        breeding-delay-ticks: 6000
+        breeding-delay-ticks: 12000
         takes-damage-from-water: false
         always-drop-exp: false
       ocelot:
@@ -1114,7 +1114,7 @@ world-settings:
         attributes:
           max_health: 10.0
           scale: 1.0
-        breeding-delay-ticks: 6000
+        breeding-delay-ticks: 12000
         takes-damage-from-water: false
         always-drop-exp: false
         spawn-below-sea-level: false
@@ -1125,7 +1125,7 @@ world-settings:
         attributes:
           max_health: 20.0
           scale: 1.0
-        breeding-delay-ticks: 6000
+        breeding-delay-ticks: 12000
         takes-damage-from-water: false
         always-drop-exp: false
       parrot:
@@ -1179,7 +1179,7 @@ world-settings:
           max_health: 10.0
           scale: 1.0
         give-saddle-back: false
-        breeding-delay-ticks: 6000
+        breeding-delay-ticks: 12000
         takes-damage-from-water: false
         always-drop-exp: false
       piglin:
@@ -1222,7 +1222,7 @@ world-settings:
           max_health: 30.0
           scale: 1.0
         breedable-item: ''
-        breeding-delay-ticks: 6000
+        breeding-delay-ticks: 12000
         takes-damage-from-water: false
         always-drop-exp: false
       pufferfish:
@@ -1242,7 +1242,7 @@ world-settings:
           scale: 1.0
         spawn-toast-chance: 0.0
         spawn-killer-rabbit-chance: 0.0
-        breeding-delay-ticks: 6000
+        breeding-delay-ticks: 12000
         mob-griefing-override: default
         takes-damage-from-water: false
         always-drop-exp: false
@@ -1290,7 +1290,7 @@ world-settings:
         attributes:
           max_health: 8.0
           scale: 1.0
-        breeding-delay-ticks: 6000
+        breeding-delay-ticks: 12000
         mob-griefing-override: default
         takes-damage-from-water: false
         always-drop-exp: false
@@ -1368,8 +1368,8 @@ world-settings:
           max_health: 4.0
           scale: 1.0
         pumpkin-can-be-added-back: false
-        min-shoot-interval-ticks: 20
-        max-shoot-interval-ticks: 20
+        min-shoot-interval-ticks: 60
+        max-shoot-interval-ticks: 60
         snow-ball-modifier: 10.0
         attack-distance: 1.25
         mob-griefing-override: default
@@ -1382,14 +1382,14 @@ world-settings:
         attributes:
           max_health: 14.0
           scale: 1.0
-        breeding-delay-ticks: 6000
+        breeding-delay-ticks: 12000
       squid:
         ridable: false
         controllable: true
         attributes:
           max_health: 10.0
           scale: 1.0
-        immune-to-EAR: true
+        immune-to-EAR: false
         water-offset-check: 0.0
         can-fly: false
         takes-damage-from-water: false
@@ -1419,7 +1419,7 @@ world-settings:
         attributes:
           max_health: 20.0
           scale: 1.0
-        breeding-delay-ticks: 6000
+        breeding-delay-ticks: 12000
         give-saddle-back: false
         takes-damage-from-water: true
         always-drop-exp: false
@@ -1441,7 +1441,7 @@ world-settings:
           movement_speed:
             min: 0.175
             max: 0.175
-        breeding-delay-ticks: 6000
+        breeding-delay-ticks: 12000
         takes-damage-from-water: false
         always-drop-exp: false
       tropical_fish:
@@ -1459,7 +1459,7 @@ world-settings:
         attributes:
           max_health: 30.0
           scale: 1.0
-        breeding-delay-ticks: 6000
+        breeding-delay-ticks: 12000
         takes-damage-from-water: false
         always-drop-exp: false
       vex:
@@ -1483,7 +1483,7 @@ world-settings:
         follow-emerald-blocks: false
         can-be-leashed: false
         can-breed: true
-        breeding-delay-ticks: 6000
+        breeding-delay-ticks: 12000
         clerics-farm-warts: false
         cleric-wart-farmers-throw-warts-at-villagers: true
         mob-griefing-override: default
@@ -1497,8 +1497,8 @@ world-settings:
           wait-until-trade-locked: false
         display-trade-item: true
         spawn-iron-golem:
-          radius: 0
-          limit: 0
+          radius: 5
+          limit: 5
         search-radius:
           acquire-poi: 48
           nearest-bed-sensor: 48
@@ -1574,7 +1574,7 @@ world-settings:
         default-collar-color: RED
         milk-cures-rabid-wolves: true
         spawn-rabid-chance: 0.0
-        breeding-delay-ticks: 6000
+        breeding-delay-ticks: 12000
         takes-damage-from-water: false
         always-drop-exp: false
       zoglin:
@@ -1598,7 +1598,7 @@ world-settings:
           only-babies: true
           chance: 0.05
           try-existing-chickens: true
-        aggressive-towards-villager-when-lagging: true
+        aggressive-towards-villager-when-lagging: false
         mob-griefing-override: default
         takes-damage-from-water: false
         always-drop-exp: false
@@ -1634,8 +1634,8 @@ world-settings:
           try-existing-chickens: true
         takes-damage-from-water: false
         curing_time:
-          min: 3600
-          max: 6000
+          min: 1300
+          max: 3000
         cure:
           enabled: true
         always-drop-exp: false
@@ -1662,14 +1662,14 @@ world-settings:
     gameplay-mechanics:
       armorstand:
         step-height: 0.0
-        set-name-visible-when-placing-with-custom-name: false
-        fix-nametags: false
-        can-movement-tick: true
-        can-move-in-water: true
-        can-move-in-water-over-fence: true
-        place-with-arms-visible: false
+        set-name-visible-when-placing-with-custom-name: true
+        fix-nametags: true
+        can-movement-tick: false
+        can-move-in-water: false
+        can-move-in-water-over-fence: false
+        place-with-arms-visible: true
       arrow:
-        movement-resets-despawn-counter: true
+        movement-resets-despawn-counter: false
       use-better-mending: false
       always-tame-in-creative: false
       boat:
@@ -1768,7 +1768,7 @@ world-settings:
           show-particles: false
           show-icon: true
         idle-timeout:
-          kick-if-idle: true
+          kick-if-idle: false
           tick-nearby-entities: true
           count-as-sleeping: false
           update-tab-list: false
@@ -1776,10 +1776,10 @@ world-settings:
         exp-dropped-on-death:
           equation: expLevel * 7
           maximum: 100
-        teleport-if-outside-border: false
+        teleport-if-outside-border: true
         teleport-on-nether-ceiling-damage: false
         totem-of-undying-works-in-inventory: false
-        fix-stuck-in-portal: false
+        fix-stuck-in-portal: true
         one-punch-in-creative: false
         sleep-ignore-nearby-mobs: false
         can-skip-night: true
