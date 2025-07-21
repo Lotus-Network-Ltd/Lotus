@@ -11,15 +11,15 @@
 verbose: false
 settings:
   messages:
-    cannot-ride-mob: "\n Ты не можешь оседлать моба\n "
-    afk-broadcast-away: "\n отошёл\n "
-    afk-broadcast-back: <yellow><italic>%s is no longer AFK
+    cannot-ride-mob: "\n Вы не можете оседлать моба\n "
+    afk-broadcast-away: "\n %s отошёл.\n "
+    afk-broadcast-back: "\n %s вернулся.\n "
     afk-broadcast-use-display-name: false
     afk-tab-list-prefix: ''
     afk-tab-list-suffix: 💤
     credits-command-output: <green>%s has been shown the end credits
     demo-command-output: <green>%s has been shown the demo screen
-    ping-command-output: <green>%s's ping is %sms
+    ping-command-output: <green>%s пинг is %sms
     ram-command-output: '<green>Ram Usage: <used>/<xmx> (<percent>)'
     rambar-command-output: <green>Rambar toggled <onoff> for <target>
     tpsbar-command-output: <green>Tpsbar toggled <onoff> for <target>
@@ -1791,10 +1791,10 @@ world-settings:
         allow-void-trading: false
       silk-touch:
         enabled: false
-        spawner-name: <reset><white>Monster Spawner
+        spawner-name: <reset><white>Спавнер мобов
         minimal-level: 1
         spawner-lore:
-        - Spawns a <mob>
+        - Спавнит моба <mob>
         tools:
         - minecraft:iron_pickaxe
         - minecraft:golden_pickaxe
