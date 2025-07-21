@@ -11,12 +11,12 @@
 verbose: false
 settings:
   messages:
-    cannot-ride-mob: <red>Ты не можешь оседлать моба
-    afk-broadcast-away: <yellow><italic>%s is now AFK
+    cannot-ride-mob: "\n Ты не можешь оседлать моба\n "
+    afk-broadcast-away: "\n отошёл\n "
     afk-broadcast-back: <yellow><italic>%s is no longer AFK
     afk-broadcast-use-display-name: false
-    afk-tab-list-prefix: '[AFK] '
-    afk-tab-list-suffix: ''
+    afk-tab-list-prefix: ''
+    afk-tab-list-suffix: 💤
     credits-command-output: <green>%s has been shown the end credits
     demo-command-output: <green>%s has been shown the demo screen
     ping-command-output: <green>%s's ping is %sms
