@@ -11,34 +11,34 @@
 verbose: false
 settings:
   messages:
-    cannot-ride-mob: <red>You cannot mount that mob
-    afk-broadcast-away: <yellow><italic>%s is now AFK
-    afk-broadcast-back: <yellow><italic>%s is no longer AFK
+    cannot-ride-mob: "\n Вы не можете оседлать моба.\n "
+    afk-broadcast-away: "\n %s отошёл.\n "
+    afk-broadcast-back: "\n %s вернулся.\n "
     afk-broadcast-use-display-name: false
-    afk-tab-list-prefix: '[AFK] '
-    afk-tab-list-suffix: ''
-    credits-command-output: <green>%s has been shown the end credits
-    demo-command-output: <green>%s has been shown the demo screen
-    ping-command-output: <green>%s's ping is %sms
-    ram-command-output: '<green>Ram Usage: <used>/<xmx> (<percent>)'
-    rambar-command-output: <green>Rambar toggled <onoff> for <target>
-    tpsbar-command-output: <green>Tpsbar toggled <onoff> for <target>
-    dont-run-with-scissors: <red><italic>Don't run with scissors!
-    uptime-command-output: <green>Server uptime is <uptime>
+    afk-tab-list-prefix: ''
+    afk-tab-list-suffix: 💤
+    credits-command-output: "\n %s были показаны титры.\n "
+    demo-command-output: "\n %s был показан демонстрационный экран.\n "
+    ping-command-output: "\n Пинг у %s %sms\n "
+    ram-command-output: "\n ОЗУ: <used>/<xmx> (<percent>)\n "
+    rambar-command-output: "\n Показатели ОЗУ <onoff> для <target>\n "
+    tpsbar-command-output: "\n Показатели ТПС <onoff> для <target>\n "
+    dont-run-with-scissors: "\n Не бегайте с ножницами!\n "
+    uptime-command-output: "\n Время работы сервера: <uptime>\n "
     unverified-username: default
     sleep-skipping-night: default
     sleeping-players-percent: default
     sleep-not-possible: default
     death-message:
-      run-with-scissors: <player> slipped and fell on their shears
-      stonecutter: <player> has sawed themself in half
+      run-with-scissors: "\n <player> поскользнулся и упал на ножницы.\n "
+      stonecutter: "\n <player> разрезал себя пополам\n "
   register-minecraft-debug-commands: false
-  server-mod-name: Purpur
-  use-alternate-keepalive: false
-  disable-give-dropping: false
+  server-mod-name: Lotus
+  use-alternate-keepalive: true
+  disable-give-dropping: true
   bee-count-payload: false
   tps-catchup: true
-  fix-projectile-looting-transfer: false
+  fix-projectile-looting-transfer: true
   clamp-attributes: true
   limit-armor: true
   player-deaths-always-show-item: false
@@ -49,10 +49,10 @@ settings:
       only-broadcast-to-affected-player: false
     death:
       only-broadcast-to-affected-player: false
-  lagging-threshold: 19.0
+  lagging-threshold: 17.0
   command:
     rambar:
-      title: <gray>Ram<yellow>:</yellow> <used>/<xmx> (<percent>)
+      title: <gray>ОЗУ<yellow>:</yellow> <used>/<xmx> (<percent>)
       overlay: NOTCHED_20
       progress-color:
         good: GREEN
@@ -64,7 +64,7 @@ settings:
         low: <gradient:#ff5555:#aa0000><text></gradient>
       tick-interval: 20
     tpsbar:
-      title: <gray>TPS<yellow>:</yellow> <tps> MSPT<yellow>:</yellow> <mspt> Ping<yellow>:</yellow>
+      title: <gray>ТПС<yellow>:</yellow> <tps> МТПС<yellow>:</yellow> <mspt> ПИНГ<yellow>:</yellow>
         <ping>ms
       overlay: NOTCHED_20
       fill-mode: MSPT
@@ -88,14 +88,14 @@ settings:
     hide-hidden-players-from-entity-selector: false
     uptime:
       format: <days><hours><minutes><seconds>
-      day: '%02d day, '
-      days: '%02d days, '
-      hour: '%02d hour, '
-      hours: '%02d hours, '
-      minute: '%02d minute, and '
-      minutes: '%02d minutes, and '
-      second: '%02d second'
-      seconds: '%02d seconds'
+      day: '%02d день, '
+      days: '%02d дней, '
+      hour: '%02d час, '
+      hours: '%02d часов, '
+      minute: '%02d минута и '
+      minutes: '%02d минут и '
+      second: '%02d сукунда'
+      seconds: '%02d секунд'
   blocks:
     barrel:
       rows: 3
@@ -143,18 +143,34 @@ settings:
       short-height: false
   allow-water-placement-in-the-end: true
   logger:
-    suppress-init-legacy-material-errors: false
-    suppress-ignored-advancement-warnings: false
-    suppress-unrecognized-recipe-errors: false
-    suppress-setblock-in-far-chunk-errors: false
-    suppress-library-loader: false
+    suppress-init-legacy-material-errors: true
+    suppress-ignored-advancement-warnings: true
+    suppress-unrecognized-recipe-errors: true
+    suppress-setblock-in-far-chunk-errors: true
+    suppress-library-loader: true
   network:
     upnp-port-forwarding: false
-    max-joins-per-second: false
+    max-joins-per-second: true
     kick-for-out-of-order-chat: true
   username-valid-characters: ^[a-zA-Z0-9_.]*$
   blast-resistance-overrides: {}
   block-fall-multipliers:
+    minecraft:lime_bed:
+      distance: 0.5
+    minecraft:yellow_bed:
+      distance: 0.5
+    minecraft:black_bed:
+      distance: 0.5
+    minecraft:orange_bed:
+      distance: 0.5
+    minecraft:green_bed:
+      distance: 0.5
+    minecraft:blue_bed:
+      distance: 0.5
+    minecraft:cyan_bed:
+      distance: 0.5
+    minecraft:gray_bed:
+      distance: 0.5
     minecraft:white_bed:
       distance: 0.5
     minecraft:hay_block:
@@ -172,22 +188,6 @@ settings:
     minecraft:light_gray_bed:
       distance: 0.5
     minecraft:brown_bed:
-      distance: 0.5
-    minecraft:lime_bed:
-      distance: 0.5
-    minecraft:yellow_bed:
-      distance: 0.5
-    minecraft:black_bed:
-      distance: 0.5
-    minecraft:orange_bed:
-      distance: 0.5
-    minecraft:green_bed:
-      distance: 0.5
-    minecraft:blue_bed:
-      distance: 0.5
-    minecraft:cyan_bed:
-      distance: 0.5
-    minecraft:gray_bed:
       distance: 0.5
 config-version: 43
 world-settings:
@@ -336,6 +336,30 @@ world-settings:
     tools:
       axe:
         strippables:
+          minecraft:oak_wood:
+            into: minecraft:stripped_oak_wood
+            drops: {}
+          minecraft:jungle_log:
+            into: minecraft:stripped_jungle_log
+            drops: {}
+          minecraft:jungle_wood:
+            into: minecraft:stripped_jungle_wood
+            drops: {}
+          minecraft:oak_log:
+            into: minecraft:stripped_oak_log
+            drops: {}
+          minecraft:acacia_wood:
+            into: minecraft:stripped_acacia_wood
+            drops: {}
+          minecraft:spruce_wood:
+            into: minecraft:stripped_spruce_wood
+            drops: {}
+          minecraft:dark_oak_log:
+            into: minecraft:stripped_dark_oak_log
+            drops: {}
+          minecraft:acacia_log:
+            into: minecraft:stripped_acacia_log
+            drops: {}
           minecraft:pale_oak_wood:
             into: minecraft:stripped_pale_oak_wood
             drops: {}
@@ -381,79 +405,7 @@ world-settings:
           minecraft:mangrove_log:
             into: minecraft:stripped_mangrove_log
             drops: {}
-          minecraft:oak_wood:
-            into: minecraft:stripped_oak_wood
-            drops: {}
-          minecraft:jungle_log:
-            into: minecraft:stripped_jungle_log
-            drops: {}
-          minecraft:jungle_wood:
-            into: minecraft:stripped_jungle_wood
-            drops: {}
-          minecraft:oak_log:
-            into: minecraft:stripped_oak_log
-            drops: {}
-          minecraft:acacia_wood:
-            into: minecraft:stripped_acacia_wood
-            drops: {}
-          minecraft:spruce_wood:
-            into: minecraft:stripped_spruce_wood
-            drops: {}
-          minecraft:dark_oak_log:
-            into: minecraft:stripped_dark_oak_log
-            drops: {}
-          minecraft:acacia_log:
-            into: minecraft:stripped_acacia_log
-            drops: {}
         waxables:
-          minecraft:waxed_exposed_cut_copper_slab:
-            into: minecraft:exposed_cut_copper_slab
-            drops: {}
-          minecraft:waxed_copper_block:
-            into: minecraft:copper_block
-            drops: {}
-          minecraft:waxed_oxidized_chiseled_copper:
-            into: minecraft:oxidized_chiseled_copper
-            drops: {}
-          minecraft:waxed_oxidized_copper_door:
-            into: minecraft:oxidized_copper_door
-            drops: {}
-          minecraft:waxed_oxidized_copper_grate:
-            into: minecraft:oxidized_copper_grate
-            drops: {}
-          minecraft:waxed_oxidized_copper_bulb:
-            into: minecraft:oxidized_copper_bulb
-            drops: {}
-          minecraft:waxed_exposed_cut_copper:
-            into: minecraft:exposed_cut_copper
-            drops: {}
-          minecraft:waxed_cut_copper_slab:
-            into: minecraft:cut_copper_slab
-            drops: {}
-          minecraft:waxed_oxidized_cut_copper_slab:
-            into: minecraft:oxidized_cut_copper_slab
-            drops: {}
-          minecraft:waxed_weathered_cut_copper_stairs:
-            into: minecraft:weathered_cut_copper_stairs
-            drops: {}
-          minecraft:waxed_weathered_copper_door:
-            into: minecraft:weathered_copper_door
-            drops: {}
-          minecraft:waxed_oxidized_cut_copper:
-            into: minecraft:oxidized_cut_copper
-            drops: {}
-          minecraft:waxed_weathered_copper_bulb:
-            into: minecraft:weathered_copper_bulb
-            drops: {}
-          minecraft:waxed_copper_grate:
-            into: minecraft:copper_grate
-            drops: {}
-          minecraft:waxed_weathered_cut_copper:
-            into: minecraft:weathered_cut_copper
-            drops: {}
-          minecraft:waxed_chiseled_copper:
-            into: minecraft:chiseled_copper
-            drops: {}
           minecraft:waxed_weathered_copper_grate:
             into: minecraft:weathered_copper_grate
             drops: {}
@@ -514,7 +466,88 @@ world-settings:
           minecraft:waxed_oxidized_copper_trapdoor:
             into: minecraft:oxidized_copper_trapdoor
             drops: {}
+          minecraft:waxed_exposed_cut_copper_slab:
+            into: minecraft:exposed_cut_copper_slab
+            drops: {}
+          minecraft:waxed_copper_block:
+            into: minecraft:copper_block
+            drops: {}
+          minecraft:waxed_oxidized_chiseled_copper:
+            into: minecraft:oxidized_chiseled_copper
+            drops: {}
+          minecraft:waxed_oxidized_copper_door:
+            into: minecraft:oxidized_copper_door
+            drops: {}
+          minecraft:waxed_oxidized_copper_grate:
+            into: minecraft:oxidized_copper_grate
+            drops: {}
+          minecraft:waxed_oxidized_copper_bulb:
+            into: minecraft:oxidized_copper_bulb
+            drops: {}
+          minecraft:waxed_exposed_cut_copper:
+            into: minecraft:exposed_cut_copper
+            drops: {}
+          minecraft:waxed_cut_copper_slab:
+            into: minecraft:cut_copper_slab
+            drops: {}
+          minecraft:waxed_oxidized_cut_copper_slab:
+            into: minecraft:oxidized_cut_copper_slab
+            drops: {}
+          minecraft:waxed_weathered_cut_copper_stairs:
+            into: minecraft:weathered_cut_copper_stairs
+            drops: {}
+          minecraft:waxed_weathered_copper_door:
+            into: minecraft:weathered_copper_door
+            drops: {}
+          minecraft:waxed_oxidized_cut_copper:
+            into: minecraft:oxidized_cut_copper
+            drops: {}
+          minecraft:waxed_weathered_copper_bulb:
+            into: minecraft:weathered_copper_bulb
+            drops: {}
+          minecraft:waxed_copper_grate:
+            into: minecraft:copper_grate
+            drops: {}
+          minecraft:waxed_weathered_cut_copper:
+            into: minecraft:weathered_cut_copper
+            drops: {}
+          minecraft:waxed_chiseled_copper:
+            into: minecraft:chiseled_copper
+            drops: {}
         weatherables:
+          minecraft:weathered_cut_copper_stairs:
+            into: minecraft:exposed_cut_copper_stairs
+            drops: {}
+          minecraft:oxidized_chiseled_copper:
+            into: minecraft:weathered_chiseled_copper
+            drops: {}
+          minecraft:oxidized_copper_grate:
+            into: minecraft:weathered_copper_grate
+            drops: {}
+          minecraft:weathered_chiseled_copper:
+            into: minecraft:exposed_chiseled_copper
+            drops: {}
+          minecraft:exposed_cut_copper_slab:
+            into: minecraft:cut_copper_slab
+            drops: {}
+          minecraft:oxidized_copper_door:
+            into: minecraft:weathered_copper_door
+            drops: {}
+          minecraft:oxidized_cut_copper_stairs:
+            into: minecraft:weathered_cut_copper_stairs
+            drops: {}
+          minecraft:exposed_copper:
+            into: minecraft:copper_block
+            drops: {}
+          minecraft:exposed_copper_trapdoor:
+            into: minecraft:copper_trapdoor
+            drops: {}
+          minecraft:weathered_copper:
+            into: minecraft:exposed_copper
+            drops: {}
+          minecraft:weathered_copper_door:
+            into: minecraft:exposed_copper_door
+            drops: {}
           minecraft:exposed_copper_door:
             into: minecraft:copper_door
             drops: {}
@@ -563,66 +596,39 @@ world-settings:
           minecraft:weathered_copper_trapdoor:
             into: minecraft:exposed_copper_trapdoor
             drops: {}
-          minecraft:weathered_cut_copper_stairs:
-            into: minecraft:exposed_cut_copper_stairs
-            drops: {}
-          minecraft:oxidized_chiseled_copper:
-            into: minecraft:weathered_chiseled_copper
-            drops: {}
-          minecraft:oxidized_copper_grate:
-            into: minecraft:weathered_copper_grate
-            drops: {}
-          minecraft:weathered_chiseled_copper:
-            into: minecraft:exposed_chiseled_copper
-            drops: {}
-          minecraft:exposed_cut_copper_slab:
-            into: minecraft:cut_copper_slab
-            drops: {}
-          minecraft:oxidized_copper_door:
-            into: minecraft:weathered_copper_door
-            drops: {}
-          minecraft:oxidized_cut_copper_stairs:
-            into: minecraft:weathered_cut_copper_stairs
-            drops: {}
-          minecraft:exposed_copper:
-            into: minecraft:copper_block
-            drops: {}
-          minecraft:exposed_copper_trapdoor:
-            into: minecraft:copper_trapdoor
-            drops: {}
-          minecraft:weathered_copper:
-            into: minecraft:exposed_copper
-            drops: {}
-          minecraft:weathered_copper_door:
-            into: minecraft:exposed_copper_door
-            drops: {}
       hoe:
         tillables:
-          minecraft:dirt:
-            drops: {}
-            condition: air_above
-            into: minecraft:farmland
-          minecraft:grass_block:
-            drops: {}
-            condition: air_above
-            into: minecraft:farmland
-          minecraft:coarse_dirt:
-            drops: {}
-            condition: air_above
-            into: minecraft:dirt
           minecraft:dirt_path:
+            into: minecraft:farmland
             drops: {}
             condition: air_above
-            into: minecraft:farmland
           minecraft:rooted_dirt:
+            into: minecraft:dirt
             drops:
               minecraft:hanging_roots: 1.0
             condition: always
+          minecraft:dirt:
+            into: minecraft:farmland
+            drops: {}
+            condition: air_above
+          minecraft:grass_block:
+            into: minecraft:farmland
+            drops: {}
+            condition: air_above
+          minecraft:coarse_dirt:
             into: minecraft:dirt
+            drops: {}
+            condition: air_above
         replant-crops: false
         replant-nether-warts: false
       shovel:
         flattenables:
+          minecraft:dirt:
+            into: minecraft:dirt_path
+            drops: {}
+          minecraft:grass_block:
+            into: minecraft:dirt_path
+            drops: {}
           minecraft:mycelium:
             into: minecraft:dirt_path
             drops: {}
@@ -633,12 +639,6 @@ world-settings:
             into: minecraft:dirt_path
             drops: {}
           minecraft:podzol:
-            into: minecraft:dirt_path
-            drops: {}
-          minecraft:dirt:
-            into: minecraft:dirt_path
-            drops: {}
-          minecraft:grass_block:
             into: minecraft:dirt_path
             drops: {}
     ridable-settings:
@@ -661,7 +661,7 @@ world-settings:
         attributes:
           max_health: 12.0
           scale: 1.0
-        breeding-delay-ticks: 6000
+        breeding-delay-ticks: 12000
       axolotl:
         ridable: false
         controllable: true
@@ -823,7 +823,7 @@ world-settings:
         attributes:
           max_health: 10.0
           scale: 1.0
-        disable-treasure-searching: false
+        disable-treasure-searching: true
         takes-damage-from-water: false
         naturally-aggressive-to-players-chance: 0.0
         always-drop-exp: false
@@ -1368,8 +1368,8 @@ world-settings:
           max_health: 4.0
           scale: 1.0
         pumpkin-can-be-added-back: false
-        min-shoot-interval-ticks: 20
-        max-shoot-interval-ticks: 20
+        min-shoot-interval-ticks: 60
+        max-shoot-interval-ticks: 60
         snow-ball-modifier: 10.0
         attack-distance: 1.25
         mob-griefing-override: default
@@ -1389,7 +1389,7 @@ world-settings:
         attributes:
           max_health: 10.0
           scale: 1.0
-        immune-to-EAR: true
+        immune-to-EAR: false
         water-offset-check: 0.0
         can-fly: false
         takes-damage-from-water: false
@@ -1483,7 +1483,7 @@ world-settings:
         follow-emerald-blocks: false
         can-be-leashed: false
         can-breed: true
-        breeding-delay-ticks: 6000
+        breeding-delay-ticks: 16000
         clerics-farm-warts: false
         cleric-wart-farmers-throw-warts-at-villagers: true
         mob-griefing-override: default
@@ -1492,13 +1492,13 @@ world-settings:
         always-drop-exp: false
         minimum-demand: 0
         lobotomize:
-          enabled: false
+          enabled: true
           check-interval: 100
           wait-until-trade-locked: false
-        display-trade-item: true
+        display-trade-item: false
         spawn-iron-golem:
-          radius: 0
-          limit: 0
+          radius: 5
+          limit: 5
         search-radius:
           acquire-poi: 48
           nearest-bed-sensor: 48
@@ -1598,7 +1598,7 @@ world-settings:
           only-babies: true
           chance: 0.05
           try-existing-chickens: true
-        aggressive-towards-villager-when-lagging: true
+        aggressive-towards-villager-when-lagging: false
         mob-griefing-override: default
         takes-damage-from-water: false
         always-drop-exp: false
@@ -1634,8 +1634,8 @@ world-settings:
           try-existing-chickens: true
         takes-damage-from-water: false
         curing_time:
-          min: 3600
-          max: 6000
+          min: 1300
+          max: 3000
         cure:
           enabled: true
         always-drop-exp: false
@@ -1662,14 +1662,14 @@ world-settings:
     gameplay-mechanics:
       armorstand:
         step-height: 0.0
-        set-name-visible-when-placing-with-custom-name: false
-        fix-nametags: false
-        can-movement-tick: true
-        can-move-in-water: true
-        can-move-in-water-over-fence: true
-        place-with-arms-visible: false
+        set-name-visible-when-placing-with-custom-name: true
+        fix-nametags: true
+        can-movement-tick: false
+        can-move-in-water: false
+        can-move-in-water-over-fence: false
+        place-with-arms-visible: true
       arrow:
-        movement-resets-despawn-counter: true
+        movement-resets-despawn-counter: false
       use-better-mending: false
       always-tame-in-creative: false
       boat:
@@ -1699,9 +1699,6 @@ world-settings:
       mob-last-hurt-by-player-time: 100
       milk-clears-beneficial-effects: true
       disable-oxidation-proximity-penalty: false
-      daylight-cycle-ticks:
-        daytime: 12000
-        nighttime: 12000
       drowning:
         air-ticks: 300
         ticks-per-damage: 20
@@ -1768,7 +1765,7 @@ world-settings:
           show-particles: false
           show-icon: true
         idle-timeout:
-          kick-if-idle: true
+          kick-if-idle: false
           tick-nearby-entities: true
           count-as-sleeping: false
           update-tab-list: false
@@ -1776,10 +1773,10 @@ world-settings:
         exp-dropped-on-death:
           equation: expLevel * 7
           maximum: 100
-        teleport-if-outside-border: false
+        teleport-if-outside-border: true
         teleport-on-nether-ceiling-damage: false
         totem-of-undying-works-in-inventory: false
-        fix-stuck-in-portal: false
+        fix-stuck-in-portal: true
         one-punch-in-creative: false
         sleep-ignore-nearby-mobs: false
         can-skip-night: true
@@ -1794,10 +1791,10 @@ world-settings:
         allow-void-trading: false
       silk-touch:
         enabled: false
-        spawner-name: <reset><white>Monster Spawner
+        spawner-name: <reset><white>Спавнер мобов
         minimal-level: 1
         spawner-lore:
-        - Spawns a <mob>
+        - Спавнит моба <mob>
         tools:
         - minecraft:iron_pickaxe
         - minecraft:golden_pickaxe
@@ -1816,6 +1813,9 @@ world-settings:
       halloween:
         force: false
         head-chance: 0.25
+      daylight-cycle-ticks:
+        daytime: 12000
+        nighttime: 12000
       entity-lifespan: 0
       entity-left-handed-chance: 0.05000000074505806
       minecart:

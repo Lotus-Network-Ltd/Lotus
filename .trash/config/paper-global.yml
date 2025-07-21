@@ -44,8 +44,8 @@ chunk-loading-basic:
   player-max-chunk-send-rate: 75.0
 chunk-system:
   gen-parallelism: default
-  io-threads: -1
-  worker-threads: -1
+  io-threads: 4
+  worker-threads: 8
 collisions:
   enable-player-collisions: true
   send-full-pos-for-hard-colliding-entities: true
@@ -63,7 +63,7 @@ item-validation:
     page: 16384
     title: 8192
   book-size:
-    page-max: 2560
+    page-max: 1280
     total-multiplier: 0.98
   display-name: 8192
   lore-line: 8192
@@ -86,13 +86,13 @@ misc:
   client-interaction-leniency-distance: default
   compression-level: default
   load-permissions-yml-before-plugins: true
-  max-joins-per-tick: 5
+  max-joins-per-tick: 1
   prevent-negative-villager-demand: false
   region-file-cache-size: 256
   send-full-pos-for-item-entities: false
   strict-advancement-dimension-check: false
-  use-alternative-luck-formula: false
-  use-dimension-type-for-custom-spawners: false
+  use-alternative-luck-formula: true
+  use-dimension-type-for-custom-spawners: true
   xp-orb-groups-per-area: default
 packet-limiter:
   all-packets:
@@ -127,7 +127,7 @@ spam-limiter:
   tab-spam-limit: 500
 spark:
   enable-immediately: false
-  enabled: true
+  enabled: false
 unsupported-settings:
   allow-headless-pistons: false
   allow-permanent-block-break-exploits: false
