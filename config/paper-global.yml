@@ -59,14 +59,14 @@ console:
   has-all-permissions: false
 item-validation:
   book:
-    author: 8192
-    page: 16384
-    title: 8192
+    author: 4096
+    page: 8192
+    title: 4096
   book-size:
-    page-max: 2560
+    page-max: 1280
     total-multiplier: 0.98
-  display-name: 8192
-  lore-line: 8192
+  display-name: 4096
+  lore-line: 4096
   resolve-selectors-in-books: false
 logging:
   deobfuscate-stacktraces: true
@@ -76,8 +76,7 @@ messages:
     connection-throttle: Connection throttled! Please wait before reconnecting.
     flying-player: <lang:multiplayer.disconnect.flying>
     flying-vehicle: <lang:multiplayer.disconnect.flying>
-  no-permission: <red>I'm sorry, but you do not have permission to perform this command.
-    Please contact the server administrators if you believe that this is in error.
+  no-permission: "\n Недостаточно прав.\n "
   use-display-name-in-quit-message: false
 misc:
   chat-threads:
