@@ -35,6 +35,8 @@
 
 `📜`ㆍ[**Правила**](https://wiki.lotus-land.net/start/rules)
 
+`🥇`ㆍ[**HotMC**](https://hotmc.ru/minecraft-server-280106)
+
 `✨`ㆍ[**Статус сервера(ов)**](https://s.mcstatus.io/3f85f5c8525c38e8024c2c83)
 
 `🗺`ㆍ[**Онлайн-карта**](https://map.lotus-land.net)
