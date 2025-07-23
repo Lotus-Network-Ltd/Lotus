@@ -21,6 +21,7 @@ plugins/LibertyBans
 plugins/GSit
 plugins/DiscordSRV
 whitelist.json
+whitelist.json.backup
 version_history.json
 usercache.json
 server.properties
