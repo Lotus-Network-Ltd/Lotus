@@ -14,8 +14,12 @@ plugins/PlasmoVoice
 plugins/pv-addon-discs
 plugins/spark
 plugins/TAB
+plugins/CompassPlus
 plugins/ViaBackwards
 plugins/ViaVersion
+plugins/LibertyBans
+plugins/GSit
+plugins/DiscordSRV
 whitelist.json
 version_history.json
 usercache.json
