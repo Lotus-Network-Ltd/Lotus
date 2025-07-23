@@ -1,6 +1,6 @@
 # Use standard Minecraft color codes with & (e.g., &6 = gold, &e = yellow, &f = white)
 # Placeholders: {x}, {y}, {z}
-message-format: "§5X:§r§d {x}  §r§5Y:§r§d {y}  §r§5Z:§r§d {z}§r"
+message-format: "§aX:§r§f {x}  §r§aY:§r§f {y}  §r§aZ:§r§f {z}§r"
 
 # Update interval in ticks (20 ticks = 1 second)
 # DO NOT set this below 5 — it may cause lag or spam
