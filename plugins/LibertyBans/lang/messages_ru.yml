@@ -86,7 +86,7 @@ alts:
      # %DATE_RECORDED% - the date the alt account was recorded
     layout: '%RELEVANT_USER% &7(%ADDRESS%) на %DATE_RECORDED% - %DETECTION_KIND%'
      # The description for an alt account detected by normal detection.
-    normal: '&cБольшая вероятность'
+    normal: '&cБоольшая вероятность'
 
    # Regarding the /alts command
   command:
