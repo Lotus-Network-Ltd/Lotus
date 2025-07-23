@@ -11,6 +11,15 @@ SET DATABASE TRANSACTION CONTROL MVLOCKS
 SET DATABASE TRANSACTION CONTROL MVLOCKS
 /*C7*/SET SCHEMA PUBLIC
 SET DATABASE TRANSACTION CONTROL MVLOCKS
-/*C2*/INSERT INTO "libertybans_names" VALUES('da7615f8-e0d4-4527-a201-0c1644dca665','textenter','textenter',1753248256)
-INSERT INTO "libertybans_addresses" VALUES('da7615f8-e0d4-4527-a201-0c1644dca665','59210cf0',1753248256)
+/*C2*/DELETE FROM "libertybans_names" WHERE "uuid"='da7615f8-e0d4-4527-a201-0c1644dca665' AND "name"='textenter' AND "lower_name"='textenter' AND "updated"=1753248256
+INSERT INTO "libertybans_names" VALUES('da7615f8-e0d4-4527-a201-0c1644dca665','textenter','textenter',1753248800)
+DELETE FROM "libertybans_addresses" WHERE "uuid"='da7615f8-e0d4-4527-a201-0c1644dca665' AND "address"='59210cf0' AND "updated"=1753248256
+INSERT INTO "libertybans_addresses" VALUES('da7615f8-e0d4-4527-a201-0c1644dca665','59210cf0',1753248800)
+COMMIT
+INSERT INTO "libertybans_punishments" VALUES(1,0,'da7615f8-e0d4-4527-a201-0c1644dca665','No reason stated.','',1753249062,0,NULL,NULL)
+INSERT INTO "libertybans_victims" VALUES(-2147483648,0,'da7615f8-e0d4-4527-a201-0c1644dca665','00000000')
+INSERT INTO "libertybans_bans" VALUES(1,-2147483648)
+INSERT INTO "libertybans_history" VALUES(1,-2147483648)
+ALTER SEQUENCE PUBLIC."libertybans_punishment_ids" RESTART WITH 2
+ALTER SEQUENCE PUBLIC."libertybans_victim_ids" RESTART WITH -2147483647
 COMMIT
