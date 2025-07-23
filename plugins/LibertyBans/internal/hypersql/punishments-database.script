@@ -31,7 +31,7 @@ SET FILES NIO TRUE
 SET FILES NIO SIZE 256
 SET FILES LOG TRUE
 SET FILES LOG SIZE 50
-SET FILES CHECK 701
+SET FILES CHECK 875
 SET DATABASE COLLATION "SQL_TEXT" PAD SPACE
 CREATE USER SA PASSWORD DIGEST 'd41d8cd98f00b204e9800998ecf8427e'
 ALTER USER SA SET LOCAL TRUE
@@ -76,15 +76,18 @@ CREATE VIEW PUBLIC."libertybans_simple_active" ("id","type","victim_type","victi
 CREATE VIEW PUBLIC."libertybans_applicable_active" ("id","type","victim_type","victim_uuid","victim_address","operator","reason","scope","start","end","uuid","address","track","scope_type") AS SELECT "id","type","victim_type","victim_uuid","victim_address","operator","reason","scope","start","end","uuid","address","track","scope_type" FROM PUBLIC."libertybans_applicable_bans" UNION ALL SELECT "id","type","victim_type","victim_uuid","victim_address","operator","reason","scope","start","end","uuid","address","track","scope_type" FROM PUBLIC."libertybans_applicable_mutes" UNION ALL SELECT "id","type","victim_type","victim_uuid","victim_address","operator","reason","scope","start","end","uuid","address","track","scope_type" FROM PUBLIC."libertybans_applicable_warns"
 CREATE VIEW PUBLIC."libertybans_applicable_history" ("id","type","victim_type","victim_uuid","victim_address","operator","reason","scope","start","end","uuid","address","track","scope_type") AS SELECT "puns"."id","puns"."type","puns"."victim_type","puns"."victim_uuid","puns"."victim_address","puns"."operator","puns"."reason","puns"."scope","puns"."start","puns"."end","addrs"."uuid","addrs"."address","puns"."track","puns"."scope_type" FROM PUBLIC."libertybans_simple_history" AS "puns" INNER JOIN PUBLIC."libertybans_addresses" AS "addrs" ON("puns"."victim_type"=0 AND "puns"."victim_uuid"="addrs"."uuid" OR "puns"."victim_type"=1 AND "puns"."victim_address"="addrs"."address" OR "puns"."victim_type"=2 AND("puns"."victim_uuid"="addrs"."uuid" OR "puns"."victim_address"="addrs"."address"))
 ALTER SEQUENCE SYSTEM_LOBS.LOB_ID RESTART WITH 1
-ALTER SEQUENCE PUBLIC."libertybans_punishment_ids" RESTART WITH 1
-ALTER SEQUENCE PUBLIC."libertybans_victim_ids" RESTART WITH -2147483648
+ALTER SEQUENCE PUBLIC."libertybans_punishment_ids" RESTART WITH 2
+ALTER SEQUENCE PUBLIC."libertybans_victim_ids" RESTART WITH -2147483647
 ALTER SEQUENCE PUBLIC."libertybans_track_ids" RESTART WITH 1
 ALTER SEQUENCE PUBLIC."libertybans_scope_ids" RESTART WITH 1
 SET DATABASE DEFAULT INITIAL SCHEMA PUBLIC
 SET TABLE PUBLIC."libertybans_schema_history" INDEX '45 45 0 0 14'
 SET TABLE PUBLIC."libertybans_revision" INDEX '87 87 0 0 1'
-SET TABLE PUBLIC."libertybans_names" INDEX '89 89 89 0 0 0 1'
-SET TABLE PUBLIC."libertybans_addresses" INDEX '93 93 93 0 0 0 1'
+SET TABLE PUBLIC."libertybans_names" INDEX '96 96 96 0 0 0 1'
+SET TABLE PUBLIC."libertybans_addresses" INDEX '100 100 100 0 0 0 1'
+SET TABLE PUBLIC."libertybans_punishments" INDEX '89 89 89 89 89 0 0 0 0 0 1'
+SET TABLE PUBLIC."libertybans_victims" INDEX '103 103 103 0 0 0 1'
+SET TABLE PUBLIC."libertybans_history" INDEX '110 110 110 110 110 0 0 0 0 0 1'
 GRANT USAGE ON DOMAIN INFORMATION_SCHEMA.CARDINAL_NUMBER TO PUBLIC
 GRANT USAGE ON DOMAIN INFORMATION_SCHEMA.YES_OR_NO TO PUBLIC
 GRANT USAGE ON DOMAIN INFORMATION_SCHEMA.CHARACTER_DATA TO PUBLIC
