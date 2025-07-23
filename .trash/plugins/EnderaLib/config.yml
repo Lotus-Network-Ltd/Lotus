@@ -1,0 +1,3 @@
+messages:
+  prefix: "<gradient:#5e4fa2:#f79459>[EnderaLib]</gradient>"
+  no-permission: "{prefix} You don't have permission to do this."

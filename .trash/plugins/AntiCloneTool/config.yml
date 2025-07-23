@@ -1,0 +1,23 @@
+lock-map-enabled: true
+lock-templates-enabled: true
+sound-enabled: true
+sound: "ENTITY_VILLAGER_NO"
+messages:
+  only-players: "\n <red>Эту команду может использовать только игрок! \n "
+  usage: "\n <yellow>Использование: /anticlonetool lock/unlock/reload \n "
+  success-reload: "\n <green>Перезагружено \n "
+  failed-reload: "\n <red>Не удалось перезагрузить конфиг \n "
+  must-hold-item: "\n <red>Вы должны держать кузнечный шаблон или карту в руке! \n "
+  already-locked: "\n <red>Этот предмет уже заблокирован! \n "
+  locked: "\n <green>Предмет успешно заблокирован! \n "
+  not-locked: "\n <red>Этот предмет не заблокирован! \n "
+  cannot-unlock: "\n <red>Вы не можете разблокировать этот предмет! \n "
+  unlocked: "\n <green>Предмет успешно разблокирован! \n "
+  map-locked: "\n <red>Эту карту нельзя скопировать, она заблокирована! \n "
+  template-locked: "\n <red>Этот шаблон нельзя скопировать, он заблокирован! \n "
+  map-lock-disabled: "\n <red>Функция блокировки карт отключена! \n "
+  template-lock-disabled: "\n <red>Функция блокировки шаблонов отключена! \n "
+  locked-lore: "\n <#ff0000>Нельзя скопировать \n "
+  author-lore: "\n <#ff0000>Автор: {author} \n "
+  cannot-craft-locked-item: "\n <red>Вы не можете использовать заблокированный предмет в крафте! \n "
+  no-permission: "\n <red>У вас нет прав на выполнение этой операции. \n "
