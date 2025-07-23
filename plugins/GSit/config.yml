@@ -1,7 +1,7 @@
 Lang:
 
   # Plugin language
-  lang: en_us
+  lang: ru_ru
 
   # Send messages to clients in their own language, if available
   client-lang: true
@@ -9,7 +9,7 @@ Lang:
 Options:
 
   # Plugin sends update notifications
-  check-for-update: true
+  check-for-update: false
 
   # Force players to stand up after taking damage
   get-up-damage: false
@@ -66,10 +66,10 @@ Options:
     allow-sit: true
 
     # Allow players to sit on NPCs by clicking
-    allow-sit-npc: true
+    allow-sit-npc: false
 
     # Maximum number of players that can be stacked (0 means unlimited)
-    max-stack: 0
+    max-stack: 3
 
     # Force eject passengers when sneaking
     sneak-ejects: true
