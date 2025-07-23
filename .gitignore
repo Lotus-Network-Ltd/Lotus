@@ -20,6 +20,8 @@ plugins/ViaVersion
 plugins/LibertyBans
 plugins/GSit
 plugins/DiscordSRV
+plugins/CoreProtect
+plugins/Vault
 whitelist.json
 whitelist.json.backup
 version_history.json
