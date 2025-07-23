@@ -33,7 +33,7 @@ settings:
       run-with-scissors: "\n <player> поскользнулся и упал на ножницы.\n "
       stonecutter: "\n <player> разрезал себя пополам\n "
   register-minecraft-debug-commands: false
-  server-mod-name: "§dLotus"
+  server-mod-name: §dLotus
   use-alternate-keepalive: true
   disable-give-dropping: false
   bee-count-payload: false
