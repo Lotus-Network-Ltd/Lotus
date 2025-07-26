@@ -31,8 +31,8 @@ settings:
       <li><img src='images/skins/2D/<uuid>.png' class='head' alt='<name>' /></li>
       <li>
         <name>
-        <img src='images/clear.png' class='health' style='background-position:0 calc(-<health>px * 9);' alt='Health <health>' />
-        <img src='images/clear.png' class='armor' style='background-position:0 calc(-<armor>px * 9);' alt='Armor <armor>' />
+        <img src='images/clear.png' class='health' style='background-position:0 calc(-<health>px * 9);' alt='ХП <health>' />
+        <img src='images/clear.png' class='armor' style='background-position:0 calc(-<armor>px * 9);' alt='Броня <armor>' />
       </li>
     </ul>
   # The custom pane layer for the player tracker.
