@@ -127,7 +127,7 @@ world-settings:
     ui:
       # The display name of the world in the world list.
       # Use <world> to use the official world name.
-      display-name: <world>
+      display-name: Lotus
       # The order of the world in the world list
       order: 0
       # Shows the footer attributes
@@ -164,7 +164,7 @@ world-settings:
       renderers:
         vintage_story: overworld_basic
     ui:
-      display-name: Overworld
+      display-name: Верхний мир
       order: 0
   world_nether:
     render:
@@ -172,7 +172,7 @@ world-settings:
         basic: nether_basic
       skylight: 0
     ui:
-      display-name: The Nether
+      display-name: Ад
       order: 1
   world_the_end:
     render:
@@ -180,5 +180,5 @@ world-settings:
         basic: the_end_basic
       skylight: 0
     ui:
-      display-name: The End
+      display-name: Энд
       order: 2
