@@ -56,7 +56,7 @@ components:
   - class: org.dynmap.InternalClientUpdateComponent
     sendhealth: true
     sendposition: true
-    allowwebchat: true
+    allowwebchat: false
     webchat-interval: 5
     hidewebchatip: false
     trustclientname: false
@@ -159,9 +159,9 @@ components:
     showplayerfaces: true
     messagettl: 5
     # Optional: set number of lines in scrollable message history: if set, messagettl is not used to age out messages
-    #scrollback: 100
+    scrollback: 100
     # Optional: set maximum number of lines visible for chatbox
-    #visiblelines: 10
+    visiblelines: 10
     # Optional: send push button
     sendbutton: false
   - class: org.dynmap.ClientComponent
@@ -450,7 +450,7 @@ defaultmap: flat
 persist-ids-by-ip: true
 
 # If true, map text to cyrillic
-cyrillic-support: false
+cyrillic-support: true
 
 # If true, coordinates will be rounded
 round-coordinates: true
