@@ -22,8 +22,16 @@ messages:
 
     §fСервер переполнен.
     §fПодписка §x§e§d§9§5§a§0§l§o§nL§x§e§8§8§b§9§6§l§o§nO§x§e§3§8§0§8§d§l§o§nT§x§d§e§7§6§8§3§l§o§nU§x§d§9§6§b§7§a§l§o§nS§x§d§4§6§1§7§0§l§o§n+ §r§fпоможет вам зайти даже на переполненный сервер.
-  outdated-client: Outdated client! Please use {0}
-  outdated-server: Outdated server! I'm still on {0}
+  outdated-client: |-
+    §x§e§d§9§5§a§0§lL§x§e§7§8§8§9§4§lO§x§e§1§7§b§8§8§lT§x§d§a§6§e§7§c§lU§x§d§4§6§1§7§0§lS
+
+    §fЭто что? Динозавр?.
+    §fКак же хорошо что мы в будущем и давно используем версию {0}
+  outdated-server: |-
+    §x§e§d§9§5§a§0§lL§x§e§7§8§8§9§4§lO§x§e§1§7§b§8§8§lT§x§d§a§6§e§7§c§lU§x§d§4§6§1§7§0§lS
+
+    §fВоу... свежо выглядишь.
+    §fЧто-ж, беги дальше, а мы продолжим жизнь здесь, на версии {0}
   restart: |-
     §x§e§d§9§5§a§0§lL§x§e§7§8§8§9§4§lO§x§e§1§7§b§8§8§lT§x§d§a§6§e§7§c§lU§x§d§4§6§1§7§0§lS
 
