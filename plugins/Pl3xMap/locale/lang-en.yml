@@ -1,10 +1,10 @@
 prefix:
-  command: '<grey>[<gradient:#C028FF:#5B00FF>Pl3xMap</gradient>]</grey> '
+  command: '<grey>[<gradient:#ed95a0:#d46170>Lotus</gradient>]</grey> '
 command:
-  base: View the map at '<grey><click:open_url:'<web-address>'><web-address></click></grey>'
+  base: Посмотреть карту '<grey><click:open_url:'<web-address>'><web-address></click></grey>'
   event:
-    click-for-help: Click for help
-    click-to-confirm: Click to confirm
+    click-for-help: Нажми для помощи
+    click-to-confirm: Нажми чтобы подтвердить
   argument:
     optional-player: Defaults to the executing player if unspecified (console must
       specify a player)
@@ -108,32 +108,32 @@ error:
     <z>'''
 ui:
   layer:
-    players: Players
-    spawn: Spawn
-    worldborder: World Border
-  title: Pl3xMap
+    players: Игроки
+    spawn: Спавн
+    worldborder: Граница мира
+  title: Lotus
   block-and-biome-lang-file: en_us.json
   blockinfo:
     label: BlockInfo
     value: <block><br /><biome>
     unknown:
-      block: Unknown block
-      biome: Unknown biome
+      block: Неизвестный блок
+      biome: Неизвестный биом
   coords:
-    label: Coordinates
+    label: Координаты
     value: <x>, <y>, <z>
   link:
-    label: Sharable Link
+    label: Скопировать ссылку
     value: ''
   markers:
-    label: Markers
-    value: No markers have been configured
+    label: Метки
+    value: Метки не настроены
   players:
-    label: Players (<online>/<max>)
-    value: No players are currently online
+    label: Онлайн <online>
+    value: Сейчас никого нет в сети.
   worlds:
-    label: Worlds
-    value: No worlds have been configured
+    label: Миры
+    value: Миры не настроены
   layers:
-    label: Layers
-    value: No layers have been configured
+    label: Слои
+    value: Слои не настроены
