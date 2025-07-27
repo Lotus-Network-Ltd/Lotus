@@ -111,7 +111,7 @@ ui:
     players: Игроки
     spawn: Спавн
     worldborder: Граница мира
-  title: Lotus
+  title: Карта Lotus
   block-and-biome-lang-file: en_us.json
   blockinfo:
     label: BlockInfo
