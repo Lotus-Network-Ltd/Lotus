@@ -3,6 +3,7 @@ world_nether/
 world_the_end/
 logs/
 eula.txt
+bluemap/
 plugins/.paper-remapped
 plugins/bStats
 plugins/Chatty
@@ -14,6 +15,7 @@ plugins/PlasmoVoice
 plugins/pv-addon-discs
 plugins/spark
 plugins/TAB
+plugins/BlueMap
 plugins/CompassPlus
 plugins/ViaBackwards
 plugins/ViaVersion
