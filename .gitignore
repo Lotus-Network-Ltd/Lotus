@@ -14,6 +14,7 @@ plugins/PlaceholderAPI
 plugins/PlasmoVoice
 plugins/pv-addon-discs
 plugins/spark
+crash-reports/
 plugins/TAB
 plugins/BlueMap
 plugins/CompassPlus
